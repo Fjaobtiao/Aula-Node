@@ -8,6 +8,8 @@
 // node app.js
 // nodemon app.js
 
+// lembrar que as informacoes do heroku mudam constantemente
+
 const app = require('./config/server')
 
 const noticias = require('./mockup')
