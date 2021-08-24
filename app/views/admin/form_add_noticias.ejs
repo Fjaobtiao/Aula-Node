@@ -1,0 +1,27 @@
+<%- include('../common/header') %>
+
+<%- include('../common/menu') %>
+
+<main>
+    <div class="bg-light p-5 mb-4">
+        <div class="container text-center">
+            <h1>Nova Notícia</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <form action="">
+            <div class="mb-3">
+                <label for="" class="form-label">Título</label>
+                <input type="text" class="form-control" placeholder="Título da Notícia">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Conteúdo</label>
+                <textarea class="form-control" name="" cols="30" rows="10" id="conteudo"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-large w-100">Criar</button>
+        </form>
+    </div>
+</main>
+
+<%- include('../common/footer') %>
