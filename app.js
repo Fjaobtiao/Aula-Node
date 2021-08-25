@@ -85,6 +85,6 @@ app.get('/admin/sair', function(req, res){
     res.redirect('/admin')
 })
 
-app.listen(3000, () => {
+app.listen( process.env.PORT || 3000, () => {
     console.log('Servidor rodando com express')
 })
